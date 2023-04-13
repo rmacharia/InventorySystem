@@ -48,14 +48,7 @@ namespace InventorySystem
             admin.AddEmployee(employee);
             Console.WriteLine($"Added employee: {employee.Username}");
 
-            // The employee can search for a product by name
-            // List<Product> searchResults = employee.SearchProduct("Widget");
-            // Console.WriteLine("Search Results:");
-            // foreach (Product p in searchResults)
-            // {
-            //     Console.WriteLine(p.Name);
-            // }
-
+            
             // The admin can update the inventory
             admin.UpdateInventory(product, 50);
             Console.WriteLine($"Updated inventory for product {product.Name} to {product.StockQuantity}");

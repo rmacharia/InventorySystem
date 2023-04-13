@@ -105,7 +105,7 @@ namespace InventorySystem.Users
 
     private bool IsAdmin()
     {
-        // Implement authentication logic here
+        
         return Username == "admin" && Password == "password";
     }
 }

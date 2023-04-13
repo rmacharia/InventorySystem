@@ -17,7 +17,7 @@ namespace InventorySystem.Users
 
         public List<Product> SearchProduct(string name)
 {
-    // In a real application, this would likely query a database or other data source
+    
     if (InventorySystem.Inventory != null)
     {
         return InventorySystem.Inventory
